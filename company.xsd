@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="company">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employee" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="emp_id" type="xs:string"></xs:element>
+                            <xs:element name="emp_name" type="xs:string"></xs:element>
+                            <xs:element name="emp_age" type="xs:integer"></xs:element>
+                            <xs:element name="emp_sal" type="xs:integer"></xs:element>
+                            <xs:element name="emp_email" type="xs:string"></xs:element>
+                            <xs:element name="emp_mob" type="xs:integer"></xs:element>
+                            <xs:element name="emp_designation" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="promotion" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+   
+    
+    <xs:element name="emp_age">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="21"/>
+                <xs:maxInclusive value="65"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="emp_sal">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="50000"/>
+                <xs:maxInclusive value="200000"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+</xs:schema>

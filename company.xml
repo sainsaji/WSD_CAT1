@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="emp.xsd">
+    <employee emp_id="1">
+        <emp_id>1</emp_id>
+            <emp_name>Joseph</emp_name>
+            <emp_age>24</emp_age>
+            <emp_sal>50000</emp_sal>
+            <emp_email>jose@gmail.com</emp_email>
+            <emp_mob>93939393933</emp_mob>
+            <emp_designation>HR</emp_designation>
+    </employee>
+    
+    <employee emp_id="2">
+        <emp_id>2</emp_id>
+        <emp_name>Sindhu</emp_name>
+        <emp_age>28</emp_age>
+        <emp_sal>60000</emp_sal>
+        <emp_email>sindhu@gmail.com</emp_email>
+        <emp_mob>9747488884</emp_mob>
+        <emp_designation>Sales</emp_designation>
+    </employee>
+
+    <employee emp_id="3">
+        <emp_id>3</emp_id>
+        <emp_name>Denim</emp_name>
+        <emp_age>30</emp_age>
+        <emp_sal>80000</emp_sal>
+        <emp_email>denim@gmail.com</emp_email>
+        <emp_mob>8732872337</emp_mob>
+        <emp_designation>IT</emp_designation>
+    </employee>
+
+    <employee emp_id="4">
+        <emp_id>4</emp_id>
+        <emp_name>Jonas</emp_name>
+        <emp_age>50</emp_age>
+        <emp_sal>90000</emp_sal>
+        <emp_email>jonas@gmail.com</emp_email>
+        <emp_mob>2387273989</emp_mob>
+        <emp_designation>Accounts</emp_designation>
+    </employee>
+
+    <employee emp_id="5">
+        <emp_id>4</emp_id>
+        <emp_name>Megha</emp_name>
+        <emp_age>45</emp_age>
+        <emp_sal>100000</emp_sal>
+        <emp_email>megha@gmail.com</emp_email>
+        <emp_mob>372737232</emp_mob>
+        <emp_designation>HR</emp_designation>
+    </employee>
+    
+    <promotion>
+        <title_1>Assosiate Project Manager</title_1>
+        <title_2>Team Leader</title_2>
+        <title_3>Developer</title_3>
+    </promotion>
+</company>
