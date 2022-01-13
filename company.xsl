@@ -50,7 +50,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                                             Assosiate Project Manager
                                         </td>
                                     </xsl:when>
-                                    <xsl:when test="emp_age &lt;=40 and emp_age &gt;=50">
+                                    <xsl:when test="emp_age &gt;=40 and emp_age &lt;=49 ">
                                         <td>
                                             Team Leader
                                         </td>
