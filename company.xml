@@ -61,6 +61,24 @@ xsi:noNamespaceSchemaLocation="emp.xsd">
         <emp_mob>372737232</emp_mob>
         <emp_designation>HR</emp_designation>
     </employee>
+    <employee emp_id="6">
+        <emp_id>5</emp_id>
+        <emp_name>Riley</emp_name>
+        <emp_age>48</emp_age>
+        <emp_sal>100000</emp_sal>
+        <emp_email>megha@gmail.com</emp_email>
+        <emp_mob>372737232</emp_mob>
+        <emp_designation>HR</emp_designation>
+    </employee>
+    <employee emp_id="5">
+        <emp_id>5</emp_id>
+        <emp_name>Riley</emp_name>
+        <emp_age>48</emp_age>
+        <emp_sal>100000</emp_sal>
+        <emp_email>megha@gmail.com</emp_email>
+        <emp_mob>372737232</emp_mob>
+        <emp_designation>HR</emp_designation>
+    </employee>
     
     <promotion>
         <title_1>Assosiate Project Manager</title_1>
